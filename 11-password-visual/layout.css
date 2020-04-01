@@ -1,0 +1,20 @@
+div{
+  margin:10px auto;
+  width:500px;
+}
+label{
+  font-size:1.2em;
+}
+input{
+  font-size:1.2em;
+  height:25px;
+  width:200px;
+}
+span img{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  position: relative;
+  left:-35px;
+  top:7px;
+}
