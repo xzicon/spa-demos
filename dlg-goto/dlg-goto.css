@@ -1,0 +1,66 @@
+.note{
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  position:fixed;
+  z-index:10;
+}
+.dialogbox{
+  border:1px solid #ef7fdb;
+  box-shadow:10px 10px 10px #d6d5d5;
+  cursor:default;
+  height:160px;
+  width:293px;
+  margin:0 auto;
+  top:100px;
+  position:relative;
+  user-select:none;
+box-sizing:border-box;
+}
+.titlebar{
+  background-color:white;
+  font-size:1.3em;
+  height:30px;
+}
+.title{
+  left:10px;
+  line-height:30px;
+  position:absolute;
+  margin:0;
+}
+.close-btn{
+  color:gray;
+  line-height:30px;
+  position:absolute;
+  right:0;
+  text-align:center;
+  width:30px;
+}
+.main{
+  background-color:#f0f0f0;
+  box-sizing:border-box;
+  height:125px;
+  padding:12px;
+  position:relative;
+}
+.txt-line-num{
+  box-sizing:border-box;
+  height:30px;
+  width:266px;
+  margin:10px 0;
+}
+.note input[type='button']{
+  width:86px;
+  height:26px
+}
+.goto{
+  position:absolute;
+  right:105px;
+  bottom:16px;
+}
+.quxiao{
+  position:absolute;
+  right:14px;
+  bottom:16px;
+}
